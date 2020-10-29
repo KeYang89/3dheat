@@ -288,7 +288,7 @@ function init() {
 											});
 
 	var floorGeometry = new THREE.PlaneGeometry(graphDimensions.w,graphDimensions.d,10,2405);
-	var colors = ["#54478c","#2C699A","#048ba8","#0DB39E","#16DB93","#83E377","#B9E769","#EFEA5A","#F1C453","#F29E4C","#B76935","#A56336","#935E38","#4f8aad","#815839","#6F523B","#5C4D3C","#4A473E","#38413F","#263C41","#143642"];
+	var colors = ["#54478c","#2C699A","#048ba8","#0DB39E","#16DB93","#83E377","#B9E769","#EFEA5A","#F1C453","#F29E4C","#B76935","#A56336","#935E38","#4f8aad","#815839","#6F523B","#5C4D3C","#4A473E","#38413F","#263C41","#143642","#090909"];
 	var faceColors = [];
 	var lines={};
 
