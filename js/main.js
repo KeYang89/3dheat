@@ -144,7 +144,7 @@ function createAGrid(opts){
 				gridGeo.vertices.push( new THREE.Vector3( i, config.width, 0 ) );
 		}
 
-		var line = new THREE.Line( gridGeo, material, THREE.LinePieces );
+		var line = new THREE.Line( gridGeo, material, THREE.LineSegments );
 		gridObject.add(line);
 
 		return gridObject;
